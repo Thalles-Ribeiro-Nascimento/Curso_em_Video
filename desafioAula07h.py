@@ -4,8 +4,7 @@ print('-'*55)
 
 #Desconto de um produto
 preco = float(input('Insira o valor do produto: R$ '))
-desconto = preco * 5/100
-precoFinal = preco - desconto
+precoFinal = preco - (preco * 5/100)
 
 print(f'Seu produto com um desconto de 5% passa a custar R$ {precoFinal:.2f}')
 
