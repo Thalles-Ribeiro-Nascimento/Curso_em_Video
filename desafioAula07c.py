@@ -6,7 +6,7 @@ print('-'*55)
 note1 = float(input('Insira a primeira nota: '))
 note2 = float(input('Insira a segunda nota: '))
 
-print(f'Sua média ficou: {(note1 + note2)/2}')
+print(f'Sua média ficou: {(note1 + note2)/2:.1f}')
 
 print('-'*55)
 print('Próximo desafio!!')
