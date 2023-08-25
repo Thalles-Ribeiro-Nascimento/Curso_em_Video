@@ -3,7 +3,7 @@ print('Seja bem-vindo ao oitavo desafio da aula 07 do Curso em Vídeo!!')
 print('-'*55)
 
 #Desconto de um produto
-preco = int(input('Insira o valor do produto: R$ '))
+preco = float(input('Insira o valor do produto: R$ '))
 desconto = preco * 5/100
 precoFinal = preco - desconto
 
