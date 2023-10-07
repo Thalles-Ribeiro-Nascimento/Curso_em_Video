@@ -1,6 +1,10 @@
-print('-'*55)
-print('Seja bem-vindo ao quinto desafio da aula 07 do Curso em Vídeo!!')
-print('-'*55)
+def Escrever(texto):
+    print('-' * 65)
+    print(texto)
+    print('-' * 65)
+
+
+Escrever('Seja bem-vindo ao quinto desafio da aula 07 do Curso em Vídeo!!')
 
 # Programa para ler a tabuada do número inserido
 num = int(input('Insira um valor: '))
@@ -16,5 +20,4 @@ print(f'{num} x 0 = {num * 0}\n'
       f'{num} x 9 = {num * 9}\n'
       f'{num} x 10 = {num * 10}\n')
 
-print('-'*55)
-print('Próximo desafio!!')
+Escrever("Próximo desafio!!")

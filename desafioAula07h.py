@@ -1,6 +1,11 @@
-print('-'*55)
-print('Seja bem-vindo ao oitavo desafio da aula 07 do Curso em Vídeo!!')
-print('-'*55)
+def Escrever(texto):
+    print('-' * 65)
+    print(texto)
+    print('-' * 65)
+
+
+
+Escrever('Seja bem-vindo ao oitavo desafio da aula 07 do Curso em Vídeo!!')
 
 #Desconto de um produto
 preco = float(input('Insira o valor do produto: R$ '))
@@ -10,5 +15,4 @@ print(f'Seu produto com um desconto de 5% passa a custar R$ {precoFinal:.2f}')
 
 
 
-print('-'*55)
-print('Próximo desafio!!')
+Escrever("Próximo desafio!!")
